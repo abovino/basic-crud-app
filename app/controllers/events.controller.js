@@ -1,14 +1,14 @@
 const Event = require('../models/event');
 
 module.exports = {
-  showEvents: showEvents,
-  showSingle: showSingle,
-  seedEvents: seedEvents,
-  showCreate: showCreate,
+  showEvents   : showEvents,
+  showSingle   : showSingle,
+  seedEvents   : seedEvents,
+  showCreate   : showCreate,
   processCreate: processCreate,
-  showEdit: showEdit,
-  processEdit: processEdit,
-  deleteEvent: deleteEvent
+  showEdit     : showEdit,
+  processEdit  : processEdit,
+  deleteEvent  : deleteEvent
 };
 
 function showEvents(req, res) {

@@ -2,15 +2,15 @@
 require('dotenv').config();
 
 // dependencies
-const express = require('express'),
-  app            = express(),
-  port           = process.env.PORT || 3000,
-  expressLayouts = require('express-ejs-layouts')
-  mongoose       = require('mongoose'),
-  bodyParser = require('body-parser'),
-  session = require('express-session'),
-  cookieParser = require('cookie-parser'),
-  flash = require('connect-flash'), 
+const express      = require('express'),
+  app              = express(),
+  port             = process.env.PORT || 3000,
+  expressLayouts   = require('express-ejs-layouts')
+  mongoose         = require('mongoose'),
+  bodyParser       = require('body-parser'),
+  session          = require('express-session'),
+  cookieParser     = require('cookie-parser'),
+  flash            = require('connect-flash'), 
   expressValidator = require('express-validator');
 
 //configure application
